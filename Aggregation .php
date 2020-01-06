@@ -24,9 +24,9 @@ class PrintFooter
 
 class ShowPage
 {
-    private $head;
-    private $body;
-    private $footer;
+    public $head;
+    public $body;
+    public $footer;
 
     public function __construct(PrintHead $head, PrintBody $body, PrintFooter $footer)
     {
