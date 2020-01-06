@@ -30,9 +30,9 @@ class ShowPage
 
     public function __construct(PrintHead $head, PrintBody $body, PrintFooter $footer)
     {
-        $this->head   = $head->print();
-        $this->body   = $body->print();
-        $this->footer = $footer->print();
+        $this->head   = $head;
+        $this->body   = $body;
+        $this->footer = $footer;
     }
 }
 $head   = new PrintHead();
